@@ -1,0 +1,80 @@
+{
+  "title": "Our Planning Process",
+  "format": "carousel",
+  "slides": [
+    {
+      "kind": "cover",
+      "photo": "VEN01",
+      "title": "Our Planning<br>Process",
+      "hook": "What we handle, from your first<br>message to the last song.",
+      "pos": "top"
+    },
+    {
+      "kind": "review",
+      "photo": "PRF3",
+      "quote": "Each key wedding person/party had their own personal assistant on the day... portable mini fans during the hot evening and soft slippers for the ladies with heels to change into.",
+      "who": "Piyumi Pathirana",
+      "elision_is_in_source": true
+    },
+    {
+      "kind": "content",
+      "photo": "LOC04",
+      "lead": "Your first proposal<br>carries venues, vendors<br>and a real price.",
+      "body": "Built from a call with two of us, not from a template.<br>Venue options that fit your events, the vendors we<br>would put with them, our fee and indicative pricing."
+    },
+    {
+      "kind": "content",
+      "photo": "INT09",
+      "lead": "You review it with us<br>before anything is booked.",
+      "body": "We go through the recommendations and the costs.<br>If something does not fit your vision, your guests<br>or your budget, we tell you early, not late."
+    },
+    {
+      "kind": "content",
+      "photo": "LOC01",
+      "lead": "You sign, you pay the<br>planning fee and the venue,<br>and the date is yours.",
+      "body": "Nothing is held on a promise. The agreement goes out<br>the moment you decide to go ahead."
+    },
+    {
+      "kind": "content",
+      "photo": "INT10",
+      "lead": "Your dedicated planner<br>takes it from there.",
+      "body": "One kickoff sets the timeline, the guest list<br>and the stages of the plan. Who is responsible<br>for what, how we talk, and what comes next."
+    },
+    {
+      "kind": "content",
+      "photo": "INT22",
+      "lead": "We shortlist the venues<br>that fit your events, not<br>the ones that photograph best.",
+      "body": "Matched to your priorities, your style and budget.<br>Curfew, capacity, exclusive use that day,<br>the buggy route, a separate kitchen prep line."
+    },
+    {
+      "kind": "content",
+      "photo": "INT30",
+      "lead": "We lock your key vendors<br>before their dates go.",
+      "body": "Photography and film, hair and makeup, catering,<br>bar, celebrant, entertainment. Availability and<br>deadlines in front of you, so nothing sits open."
+    },
+    {
+      "kind": "content",
+      "photo": "INT26",
+      "lead": "You see options at several<br>price points, and what<br>each one includes.",
+      "body": "Carefully selected, never a long list.<br>We explain what each one includes and what it<br>does not, so the decision is yours to make."
+    },
+    {
+      "kind": "content",
+      "photo": "INT25",
+      "lead": "You always know<br>what is done, what is next,<br>and what needs you.",
+      "body": "The whole plan broken into stages, and your planner<br>keeps every one of them in front of you.<br>Nothing important lives only in somebody’s inbox."
+    },
+    {
+      "kind": "content",
+      "photo": "INI13",
+      "lead": "We plan the whole<br>celebration, not just<br>the wedding day.",
+      "body": "The welcome event, the wedding day,<br>the recovery day after it, and the honeymoon."
+    },
+    {
+      "kind": "cta",
+      "photo": "WES06",
+      "lead": "Send us your date.",
+      "body": "You get a real price range in your currency,<br>the same day. And a venue shortlist built from<br>your events, not from a brochure."
+    }
+  ]
+}

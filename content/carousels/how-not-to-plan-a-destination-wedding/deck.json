@@ -1,0 +1,92 @@
+{
+  "title": "How NOT to Plan a Destination Wedding",
+  "format": "carousel",
+  "slides": [
+    {
+      "kind": "cover",
+      "photo": "INT07",
+      "title": "How NOT to<br>Plan a<br>Destination<br>Wedding",
+      "hook": "Lessons we’ve learned after 600+ weddings."
+    },
+    {
+      "kind": "review",
+      "photo": "PRF1",
+      "quote": "We were able to just be fully present and enjoy every moment knowing we were in great hands.",
+      "who": "Mega Septiandara"
+    },
+    {
+      "kind": "content",
+      "photo": "INT04",
+      "lead": "Do not choose<br>the venue first.",
+      "body": "Start with your budget, your guest count and your style.<br>Count your events first. The room is the easy part."
+    },
+    {
+      "kind": "content",
+      "photo": "INI07",
+      "lead": "Do not assume a destination<br>wedding is cheap.",
+      "body": "You are funding a whole celebration, not a ceremony.<br>Flights, stays, attire, rings, venue, guest meals,<br>every event, the honeymoon. Guests book their own travel."
+    },
+    {
+      "kind": "content",
+      "photo": "WES08",
+      "lead": "Do not chase<br>the lowest price.",
+      "body": "The cheapest quote is the one with the least in it.<br>A cheap decision costs more later, in stress,<br>compromises and quality you cannot fix on the day."
+    },
+    {
+      "kind": "content",
+      "photo": "INT29",
+      "lead": "Do not compare Bali<br>options on price alone.",
+      "body": "Compare the whole experience. The venue and the<br>setting, the service, how your culture is handled,<br>and the days around the day. Not the number."
+    },
+    {
+      "kind": "content",
+      "photo": "INT13",
+      "lead": "Do not book before you<br>know what is included.",
+      "body": "Ask what is in the price and what is not.<br>Meals, venue rules, guest logistics, staffing,<br>overtime, corkage. Get it in writing before you pay."
+    },
+    {
+      "kind": "content",
+      "photo": "LOC02",
+      "lead": "Do not hire anyone<br>you have not checked.",
+      "body": "Check they are a legal business with a reputation<br>you can find yourself. Ask for a wedding they ran<br>at your size, and meet the team who runs your day."
+    },
+    {
+      "kind": "content",
+      "photo": "INT11",
+      "lead": "Do not pick a planner<br>on experience alone.",
+      "body": "The most weddings behind them is not the same<br>as the most attention on yours. Ask how much<br>they are willing to change for you."
+    },
+    {
+      "kind": "content",
+      "photo": "WES04",
+      "lead": "Do not plan only<br>for the wedding day.",
+      "body": "A welcome event before it. A recovery day after it.<br>A honeymoon at the end. Guests who fly this far<br>stay for days, and every day needs a plan."
+    },
+    {
+      "kind": "content",
+      "photo": "INT21",
+      "lead": "Do not wait to get<br>expert advice.",
+      "body": "The earlier you get clarity on budget, venue and<br>what is actually possible, the more of your<br>shortlist is still available to you."
+    },
+    {
+      "kind": "checklist",
+      "photo": "INT28",
+      "lead": "Do these five<br>things instead.",
+      "items": [
+        "Count your events before you look at venues",
+        "Budget for the whole celebration, not the day",
+        "Get every inclusion in writing",
+        "Agree one clear process with both families",
+        "Meet the person who runs your day"
+      ]
+    },
+    {
+      "kind": "cta",
+      "photo": "INI12",
+      "lead": "Comment VIP.",
+      "body": "We send you the real cost ranges for a Bali wedding<br>at your guest count, the same day. No form, no call.",
+      "crop": "50% 18%",
+      "action": "Comment VIP below"
+    }
+  ]
+}

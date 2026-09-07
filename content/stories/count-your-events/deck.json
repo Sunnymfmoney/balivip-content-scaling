@@ -1,0 +1,27 @@
+{
+  "title": "Count Your Events",
+  "format": "story",
+  "note": "Three frame story. Frame 1 stops the scroll, frame 2 teaches one thing, frame 3 asks. Same engine as the carousels, taller canvas.",
+  "slides": [
+    {
+      "kind": "cover",
+      "photo": "INT04",
+      "title": "Do not<br>choose the<br>venue first.",
+      "hook": "The room is the easy part."
+    },
+    {
+      "kind": "content",
+      "photo": "INI10",
+      "lead": "Count your events<br>before you look<br>at venues.",
+      "body": "How many, what each one needs,<br>and who has to be there.<br>The venue decision gets easy after that."
+    },
+    {
+      "kind": "cta",
+      "photo": "INI12",
+      "crop": "50% 18%",
+      "lead": "Tell us your ceremonies.",
+      "action": "Reply to this story",
+      "body": "We come back the same day with how many<br>spaces you need and which venues fit."
+    }
+  ]
+}

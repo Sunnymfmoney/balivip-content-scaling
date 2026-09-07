@@ -1,0 +1,44 @@
+
+@font-face{{font-family:CG;src:url('file://{FONTS}/CormorantGaramond-Bold.ttf');font-weight:700}}
+@font-face{{font-family:CG;src:url('file://{FONTS}/CormorantGaramond-Regular.ttf');font-weight:400}}
+@font-face{{font-family:JO;src:url('file://{FONTS}/Jost-Regular.ttf');font-weight:400}}
+@font-face{{font-family:JO;src:url('file://{FONTS}/Jost-Medium.ttf');font-weight:500}}
+@font-face{{font-family:JO;src:url('file://{FONTS}/Jost-SemiBold.ttf');font-weight:600}}
+*{{margin:0;padding:0;box-sizing:border-box}}
+html,body{{width:1080px;height:1350px}}
+.slide{{position:relative;width:1080px;height:1350px;overflow:hidden;background:#0c0f14}}
+.ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
+.half{{position:absolute;top:0;width:50%;height:836px;object-fit:cover}}
+.half.a{{left:0}} .half.b{{right:0}}
+.divider{{position:absolute;top:0;left:calc(50% - 2px);width:4px;height:836px;background:#f4f2ed;z-index:4}}
+.band{{position:absolute;top:836px;left:0;width:1080px;height:514px;background:#0c0f14;z-index:3}}
+.splitfade{{position:absolute;top:700px;left:0;width:1080px;height:140px;z-index:3;
+  background:linear-gradient(180deg,rgba(12,15,20,0) 0%,#0c0f14 100%)}}
+.statwrap{{position:absolute;inset:0;background:#0c0f14;z-index:2}}
+.scrim{{position:absolute;inset:0;z-index:3;
+  background:linear-gradient(180deg,rgba(12,15,20,.30) 0%,rgba(12,15,20,.03) 28%,rgba(12,15,20,.10) 46%,rgba(12,15,20,.64) 64%,rgba(12,15,20,.94) 82%,rgba(12,15,20,.97) 100%)}}
+.scrim.top{{background:linear-gradient(0deg,rgba(12,15,20,.30) 0%,rgba(12,15,20,.03) 28%,rgba(12,15,20,.10) 46%,rgba(12,15,20,.64) 64%,rgba(12,15,20,.94) 82%,rgba(12,15,20,.97) 100%)}}
+.pad{{position:absolute;inset:0;z-index:4;padding:120px;display:flex;flex-direction:column}}
+.body-wrap{{margin-top:auto}}
+.pad.top .body-wrap{{margin-top:0;margin-bottom:auto}}
+.eyebrow{{font-family:JO;font-weight:500;font-size:20px;letter-spacing:.34em;text-transform:uppercase;color:#f4f2ed}}
+.num{{position:absolute;z-index:5;font-family:JO;font-weight:500;font-size:22px;letter-spacing:.24em;color:rgba(244,242,237,.72);right:120px;top:120px}}
+.num.low{{top:auto;bottom:120px}}
+.lead{{font-family:CG;font-weight:700;color:#ffffff;line-height:1.12;letter-spacing:-.005em}}
+.rule{{width:96px;height:2px;background:transparent;margin:36px 0 32px}}
+.body{{font-family:JO;font-weight:400;font-size:33px;line-height:1.60;color:#eeebe4}}
+.body b{{font-family:JO;font-weight:600;color:#ffffff}}
+.foot{{margin-top:44px;display:flex;align-items:center;justify-content:space-between}}
+.brand{{font-family:JO;font-weight:500;font-size:19px;letter-spacing:.30em;text-transform:uppercase;color:rgba(244,242,237,.62)}}
+.bignum{{font-family:CG;font-weight:700;font-size:250px;line-height:.92;color:#ffffff;letter-spacing:-.02em}}
+.stars{{font-family:JO;font-weight:500;font-size:25px;letter-spacing:.20em;text-transform:uppercase;color:#eeebe4;margin-top:20px}}
+.slide.cta{{background:#f4f2ed}}
+.cta .photo-top{{position:absolute;top:0;left:0;width:1080px;height:620px;object-fit:cover;z-index:1}}
+.cta .fade{{position:absolute;top:440px;left:0;width:1080px;height:180px;z-index:2;
+  background:linear-gradient(180deg,rgba(244,242,237,0) 0%,#f4f2ed 100%)}}
+.cta .pad{{padding:120px;justify-content:flex-end}}
+.cta .lead{{color:#2b2724}} .cta .body{{color:#4a443d}} .cta .body b{{color:#2b2724}}
+.cta .eyebrow{{color:#6b645c}} .cta .brand{{color:#b4ada3}}
+.cta .rule{{background:transparent}}
+.cta .action{{display:inline-block;margin-top:40px;background:#c9a25c;color:#fff;font-family:JO;font-weight:600;
+  font-size:26px;letter-spacing:.16em;text-transform:uppercase;padding:26px 44px;border-radius:18px}}

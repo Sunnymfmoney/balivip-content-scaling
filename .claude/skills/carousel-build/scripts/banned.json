@@ -1,0 +1,12 @@
+{
+ "\\bsixteen\\b|16 venue": "venue count is 50+, verified from their homepage. Sixteen shipped 5 times",
+ "600\\s*weddings": "OVERRIDDEN 2026-09-04 by Sunny, client instructed. Source is Gideon on the 2 Sep call only; BALIVIP's published copy says 'hundreds'. Still unsourced in any system of record.",
+ "22 years": "use 'since 2003'. Gideon corrected 22 to two decades",
+ "wedding usually needs three": "Chinese is four, and not every couple does sangjit (Alvin, on call)",
+ "A Western wedding": "use 'international', not 'Western' (Gideon, on call)",
+ "real curfew, real seated": "promises per-venue curfew and capacity the KB forbids publishing",
+ "floor and a? ?ceiling": "trade jargon. Internal team could not parse it. Say price points and what is included",
+ "\\b50\\s*\\+|\\bfifty\\b": "venue and vendor counts are cut entirely, Sunny 2026-09-04. Sixteen shipped 5 times, then 50+ replaced it, then the whole count went",
+ "nine events|one point of contact": "the 'nine events across three days, one point of contact' line is cut entirely, Sunny 2026-09-04",
+ "discovery call before the discovery": "the BALIVIP team asked what it meant, 2026-09-04. If they have to ask, it does not publish. Same scar as floor/ceiling"
+}

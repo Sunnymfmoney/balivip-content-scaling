@@ -1,0 +1,79 @@
+{
+  "title": "All Cultures, All Races",
+  "format": "carousel",
+  "slides": [
+    {
+      "kind": "cover",
+      "trio": [
+        "INI14",
+        "INT03",
+        "WES10"
+      ],
+      "title": "All Cultures,<br>All Races",
+      "hook": "Here’s how we handle your wedding culture<br>and traditions with care and precision."
+    },
+    {
+      "kind": "review",
+      "photo": "PRF2",
+      "quote": "We met 4 planners, 2 of Indian origin and 2 of Indonesian. We finally shortlisted BaliVIP, despite the Indian origin wedding planners having more experience in Indian weddings and knowing the customs better, because in our conversations with Veronika and Casavia we found a willingness to be flexible and customize the wedding to the way our children had imagined it.",
+      "who": "Naresh Ahuja"
+    },
+    {
+      "kind": "content",
+      "photo": "INI10",
+      "lead": "An Indian wedding needs<br>four or five separate spaces.",
+      "body": "Across two or three days.<br>Count your events, not your guests."
+    },
+    {
+      "kind": "content",
+      "photo": "WES07",
+      "lead": "An international<br>wedding needs two.",
+      "body": "Ceremony, then reception. Two spaces, one evening,<br>and every hour of it built to feel intimate."
+    },
+    {
+      "kind": "content",
+      "photo": "INT17",
+      "lead": "A Chinese wedding can run sangjit,<br>ceremony, tea pai and reception.",
+      "body": "A tea ceremony needs a real indoor room,<br>close to the action. A lawn is not a room."
+    },
+    {
+      "kind": "content",
+      "photo": "INI08",
+      "lead": "A baraat needs a driveway<br>and room to turn around.",
+      "body": "Some of Bali’s best venues are reached<br>single file down a cliff path. Ask how the groom arrives."
+    },
+    {
+      "kind": "content",
+      "photo": "INI15",
+      "lead": "A tea ceremony is quiet<br>and close. A sangeet<br>is loud and late.",
+      "body": "Same lighting, same playlist and same pacing<br>for both, and each one feels slightly wrong.",
+      "pos": "bottom"
+    },
+    {
+      "kind": "content",
+      "photo": "INT08",
+      "lead": "Every dietary requirement<br>handled with care.",
+      "body": "From Jain to halal, vegetarian, no beef and allergies.<br>We ask whether the kitchen can run a separate prep line."
+    },
+    {
+      "kind": "content",
+      "photo": "INI04",
+      "lead": "Some traditions center<br>on the couple. Others bring<br>in parents and family.",
+      "body": "Vows can belong to the two of you alone.<br>Other rituals need your parents present.<br>We ask which is which before the run sheet is printed."
+    },
+    {
+      "kind": "content",
+      "photo": "INI05",
+      "lead": "We work with you and your<br>parents, not around them.",
+      "body": "Every tradition, every responsibility,<br>every family expectation. We ask who has to be<br>present for what, and build the timeline around it.",
+      "pos": "top"
+    },
+    {
+      "kind": "cta",
+      "photo": "INI03",
+      "lead": "Tell us your ceremonies.",
+      "body": "Haldi, sangjit, tea pai, akad, baraat, whatever<br>your family runs. We come back the same day with<br>how many spaces you need and which venues fit.",
+      "crop": "50% 30%"
+    }
+  ]
+}

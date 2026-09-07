@@ -1,0 +1,13 @@
+{
+  "\\bsixteen\\b|16 venue": "Venue counts are cut entirely. Sixteen shipped five times and was wrong every time.",
+  "\\b50\\s*\\+|\\bfifty\\b": "Venue and vendor counts are cut entirely. Do not replace with a smaller number. Cut.",
+  "nine events|one point of contact": "The 'nine events across three days, one point of contact' line is cut. Every promise attached to a count had to be walked back.",
+  "22 years": "Use 'since 2003'. The count changes every year, the founding date does not.",
+  "wedding usually needs three": "A Chinese wedding is four, and not every couple runs sangjit. Do not state a fixed number of events for any culture.",
+  "A Western wedding": "Use 'international', not 'Western'. Most BaliVIP weddings are mixed, not Western.",
+  "real curfew, real seated": "Promises per venue curfew and capacity that cannot be published.",
+  "floor and a? ?ceiling": "Trade jargon. The internal team could not parse it. Say price points and what is included.",
+  "discovery call before the discovery": "The team had to ask what it meant. If they have to ask, it does not publish.",
+  "\\bbest wedding planner\\b|\\bthe best in bali\\b": "Unqualified superiority claim. Carry confidence through mechanism and proof instead: what you plan for, who you have worked with, what the couple never sees.",
+  "elected chairwoman|chairwoman of|wedding association": "The elected chairwoman and Bali Wedding Association credential is removed from all published material. Client request, 2026-08-31. Do not reinstate without a written instruction from the client."
+}

@@ -1,0 +1,48 @@
+.slide.card{background:#0c0f14}
+.third{position:absolute;top:0;width:33.3333%;height:560px;object-fit:cover}
+.third.a{left:0} .third.b{left:33.3333%} .third.c{left:66.6667%}
+.vline{position:absolute;top:0;width:4px;height:560px;background:#f4f2ed;z-index:4}
+.slide.trio .band{top:560px;height:790px}
+.slide.trio .splitfade{top:422px}
+.vline.one{left:calc(33.3333% - 2px)} .vline.two{left:calc(66.6667% - 2px)}
+.bigtitle{font-family:CG;font-weight:700;font-size:152px;line-height:1.02;color:#fff;letter-spacing:-.015em}
+.hook{font-family:JO;font-weight:400;font-size:44px;line-height:1.45;color:#eeebe4}
+.ratingbar{display:flex;align-items:flex-end;gap:34px;margin-bottom:46px}
+.bignum2{font-family:CG;font-weight:700;font-size:136px;line-height:.86;color:#fff;letter-spacing:-.02em}
+.ratingmeta{display:flex;flex-direction:column;gap:14px;padding-bottom:10px}
+.stars2{font-family:JO;font-size:32px;letter-spacing:.22em;color:#eeebe4;line-height:1}
+.ratinglabel{font-family:JO;font-weight:500;font-size:21px;letter-spacing:.26em;text-transform:uppercase;color:rgba(244,242,237,.72);line-height:1}
+.quote{font-family:CG;font-weight:700;color:#fff;line-height:1.22;letter-spacing:-.005em}
+.attrib{font-family:JO;font-weight:500;font-size:26px;letter-spacing:.04em;color:#eeebe4;margin-top:38px;display:flex;align-items:baseline;gap:20px}
+.attrib .src{font-family:JO;font-weight:400;font-size:18px;letter-spacing:.24em;text-transform:uppercase;color:rgba(244,242,237,.52)}
+.creds{font-family:JO;font-weight:500;font-size:23px;letter-spacing:.16em;text-transform:uppercase;color:#eeebe4}
+.rcard{background:#F4F2ED;border-radius:34px;padding:50px 54px 54px;
+  box-shadow:0 34px 80px rgba(0,0,0,.55);position:relative;z-index:5}
+.rhead{display:flex;align-items:center;gap:22px;margin-bottom:30px}
+.ravatar{width:78px;height:78px;border-radius:50%;background:#272C6D;color:#F4F2ED;font-family:CG;
+  font-weight:700;font-size:40px;line-height:78px;text-align:center;flex:none}
+.rname{font-family:JO;font-weight:600;font-size:31px;color:#2B2724;line-height:1.15}
+.rstars{font-family:JO;font-size:26px;letter-spacing:.01em;color:#E0A337;margin-top:8px;line-height:1}
+.rgoogle{margin-left:auto;font-family:JO;font-weight:600;font-size:16px;letter-spacing:.22em;
+  text-transform:uppercase;color:#9A9184;flex:none;align-self:flex-start;padding-top:6px}
+.rtext{font-family:CG;font-weight:400;color:#2B2724;line-height:1.36;letter-spacing:.002em}
+.rbelow{display:flex;align-items:baseline;gap:14px;margin-top:38px;font-family:JO;font-weight:500;
+  font-size:20px;letter-spacing:.2em;text-transform:uppercase;color:#eeebe4}
+.rbelow .dot{color:rgba(238,235,228,.45)}
+.rbelow .sub{color:rgba(238,235,228,.62)}
+.slide.card .pad{justify-content:flex-end}
+.card .photo-top{position:absolute;top:0;left:0;width:1080px;object-fit:cover;z-index:1}
+.card .fade{position:absolute;left:0;width:1080px;height:190px;z-index:2;background:linear-gradient(180deg,rgba(12,15,20,0) 0%,#0c0f14 100%)}
+.card .topscrim{position:absolute;top:0;left:0;width:1080px;height:300px;z-index:2;background:linear-gradient(180deg,rgba(12,15,20,.55) 0%,rgba(12,15,20,0) 100%)}
+.slide.card .pad > div{width:100%}
+.pmid{display:flex;flex-direction:column;justify-content:center;flex:1;padding:64px 0}
+.ptop{display:flex;align-items:flex-end}
+.quotemark{font-family:CG;font-weight:700;font-size:150px;line-height:.6;color:rgba(244,242,237,.20);height:78px}
+.scrim.check{background:linear-gradient(180deg,rgba(12,15,20,.97) 0%,rgba(12,15,20,.95) 40%,rgba(12,15,20,.88) 56%,rgba(12,15,20,.62) 67%,rgba(12,15,20,.24) 77%,rgba(12,15,20,.10) 87%,rgba(12,15,20,.32) 100%)}
+.checklist{list-style:none;margin:30px 0 0;padding:0}
+.checklist li{font-family:JO;font-weight:400;font-size:34px;line-height:1.42;color:#eeebe4;
+  padding-left:58px;position:relative;margin-bottom:22px}
+.checklist li:last-child{margin-bottom:0}
+.checklist li:before{content:"";position:absolute;left:2px;top:11px;width:24px;height:13px;
+  border-left:4px solid #E0A337;border-bottom:4px solid #E0A337;transform:rotate(-45deg)}
+.scrim.deepscrim{background:linear-gradient(180deg,rgba(12,15,20,.97) 0%,rgba(12,15,20,.95) 34%,rgba(12,15,20,.86) 46%,rgba(12,15,20,.62) 56%,rgba(12,15,20,.28) 66%,rgba(12,15,20,.12) 76%,rgba(12,15,20,.26) 100%)}

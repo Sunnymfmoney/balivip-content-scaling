@@ -1,0 +1,20 @@
+# The photo library is BaliVIP's own and too large for git.
+# Pull it from the shared Drive into photos/, keeping manifest.tsv in sync.
+photos/*
+!photos/manifest.tsv
+
+# Rendered output is rebuilt from source in seconds.
+build/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# HyperFrames working files. Assets are BaliVIP's own photographs and renders
+# are rebuilt from source, so neither belongs in git.
+video/node_modules/
+video/renders/
+video/assets/*
+!video/assets/.gitkeep
+!video/assets/README.md
+video/.hyperframes/

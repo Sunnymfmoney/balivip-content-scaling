@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: CG; src: url('fonts/CormorantGaramond-Bold.ttf'); font-weight: 700; }
+      @font-face { font-family: CG; src: url('fonts/CormorantGaramond-Regular.ttf'); font-weight: 400; }
+      @font-face { font-family: JO; src: url('fonts/Jost-Regular.ttf'); font-weight: 400; }
+      @font-face { font-family: JO; src: url('fonts/Jost-Medium.ttf'); font-weight: 500; }
+      @font-face { font-family: JO; src: url('fonts/Jost-SemiBold.ttf'); font-weight: 600; }
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0c0f14; }
+      body { font-family: JO, sans-serif; }
+
+      /* BaliVIP tokens. Same values as the carousel system in brand/css. */
+      :root {
+        --ink: #0c0f14;
+        --cream: #f4f2ed;
+        --warm: #eeebe4;
+        --gold: #c9a25c;
+      }
+
+      .frame { position: absolute; inset: 0; }
+      .frame img, .frame video { position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover; }
+
+      /* Copy has to clear Instagram's own UI: profile row on top, reply bar below. */
+      .scrim { position: absolute; inset: 0;
+        background: linear-gradient(180deg, rgba(12,15,20,.88) 0%, rgba(12,15,20,.35) 24%,
+          rgba(12,15,20,.08) 46%, rgba(12,15,20,.12) 58%, rgba(12,15,20,.72) 84%, rgba(12,15,20,.96) 100%); }
+
+      .copy { position: absolute; left: 110px; right: 110px; bottom: 300px; }
+      .kicker { font-family: JO; font-weight: 500; font-size: 22px; letter-spacing: .34em;
+        text-transform: uppercase; color: var(--cream); margin-bottom: 30px; }
+      .headline { font-family: CG; font-weight: 700; font-size: 96px; line-height: 1.06;
+        color: #fff; letter-spacing: -.015em; }
+      .sub { font-family: JO; font-weight: 400; font-size: 36px; line-height: 1.55;
+        color: var(--warm); margin-top: 34px; }
+      .cta { display: inline-block; margin-top: 44px; background: var(--gold); color: #fff;
+        font-family: JO; font-weight: 600; font-size: 28px; letter-spacing: .16em;
+        text-transform: uppercase; padding: 28px 48px; border-radius: 18px; }
+      .brandmark { position: absolute; left: 110px; bottom: 190px; font-family: JO; font-weight: 500;
+        font-size: 21px; letter-spacing: .30em; text-transform: uppercase; color: rgba(244,242,237,.62); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="12"
+         data-width="1080" data-height="1920">
+
+      <!-- Frame 1. The hook. Never open on a static portrait. -->
+      <div id="f1" class="clip frame" data-start="0" data-duration="4" data-track-index="1">
+        <img src="assets/hook.jpg" alt="" />
+        <div class="scrim"></div>
+        <div class="copy">
+          <div class="kicker">Balivip Wedding</div>
+          <div class="headline">Do not choose<br />the venue first.</div>
+          <div class="sub">The room is the easy part.</div>
+        </div>
+        <div class="brandmark">balivipwedding.com</div>
+      </div>
+
+      <!-- Frame 2. One idea. -->
+      <div id="f2" class="clip frame" data-start="4" data-duration="4" data-track-index="1">
+        <img src="assets/teach.jpg" alt="" />
+        <div class="scrim"></div>
+        <div class="copy">
+          <div class="headline">Count your events<br />before you look.</div>
+          <div class="sub">How many, what each one needs,<br />and who has to be there.</div>
+        </div>
+        <div class="brandmark">balivipwedding.com</div>
+      </div>
+
+      <!-- Frame 3. One ask. -->
+      <div id="f3" class="clip frame" data-start="8" data-duration="4" data-track-index="1">
+        <img src="assets/cta.jpg" alt="" />
+        <div class="scrim"></div>
+        <div class="copy">
+          <div class="headline">Tell us your<br />ceremonies.</div>
+          <div class="sub">We come back the same day with how many<br />spaces you need and which venues fit.</div>
+          <div class="cta">Comment VIP</div>
+        </div>
+        <div class="brandmark">balivipwedding.com</div>
+      </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Slow push on the photograph. Luxury reads as calm, never frantic.
+      ["#f1", "#f2", "#f3"].forEach(function (id, i) {
+        var at = i * 4;
+        tl.from(id + " img", { scale: 1.08, duration: 4, ease: "none" }, at);
+        tl.from(id + " .headline", { opacity: 0, y: 28, duration: 0.9, ease: "power2.out" }, at + 0.15);
+        tl.from(id + " .sub", { opacity: 0, y: 18, duration: 0.8, ease: "power2.out" }, at + 0.45);
+      });
+      tl.from("#f3 .cta", { opacity: 0, y: 16, duration: 0.6, ease: "power2.out" }, 8.9);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
